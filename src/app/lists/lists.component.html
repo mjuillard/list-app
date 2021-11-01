@@ -1,0 +1,16 @@
+<div class="menu-bar">
+  <mat-icon routerLink="/lists">home</mat-icon>
+  <mat-icon (click)="drawer.toggle()">menu</mat-icon>
+</div>
+<div>
+  <mat-drawer-container class="list-container" autosize>
+      <mat-drawer #drawer class="list-sidenav" mode="side" (click)="drawer.toggle()">
+        <app-list-list></app-list-list>
+      </mat-drawer>
+      <mat-drawer-content>
+        <div class="list-sidenav-content">
+            <router-outlet></router-outlet>
+        </div>
+    </mat-drawer-content>
+  </mat-drawer-container>
+</div>

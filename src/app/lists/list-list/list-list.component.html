@@ -1,0 +1,11 @@
+<div class="menu-title">
+  <mat-icon routerLink="/lists">home</mat-icon>
+  Task lists
+</div>
+<div>
+    <app-list-item
+        *ngFor="let listElmt of lists; let i = index"
+        [list]="listElmt"
+        [index]="i">
+    </app-list-item>
+</div>
