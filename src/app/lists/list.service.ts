@@ -6,7 +6,7 @@ import { List } from './list.model';
 })
 export class ListService {
 
-  private lists: List[] = [ {id:0, title: 'default'}, {id:1, title:'youpla'}];
+  private lists: List[] = [ {id:0, title: 'Liste principale'}, {id:1, title:'Courses'}];
 
   constructor() { }
 

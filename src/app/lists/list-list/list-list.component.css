@@ -8,3 +8,39 @@
   font-size: 36px;
   padding: 5px;
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  height: 100%;
+}
+
+.list-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100%;
+  padding-left: 5%;
+}
+
+.menu-bar {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  background-color: #d3d3d363;
+}
+
+.home-button{
+  display: flex;
+  height: 5%;
+  justify-content: center;
+}
+
+.menu-button{
+  display: flex;
+  height: 90%;
+  align-items: center;
+  justify-content: center;
+}

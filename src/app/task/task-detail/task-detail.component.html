@@ -1,6 +1,25 @@
 <div class="task-card">
   <mat-card>
-      <mat-card-title>{{task.title}}</mat-card-title>
-      <mat-card-content>{{task.content}}</mat-card-content>
+      <div class="task-card-content">
+        <div class="task-card-inside">
+          <mat-card-title>{{task.title}}</mat-card-title>
+          <mat-card-content>
+              {{task.content}}
+          </mat-card-content>
+        </div>
+        <div class="task-card-delete">
+          <!--
+          <a >
+            <img class="delete-button" src="../../../assets/buttons/delete.png">
+          </a>
+          -->
+          <button mat-icon-button>
+            <mat-icon>delete_forever</mat-icon>
+          </button>
+          <!--
+          <button mat-mini-fab color="primary">Primary</button>
+          -->
+        </div>
+      </div>
   </mat-card>
 </div>

@@ -7,8 +7,8 @@ import { Task } from './task.model';
 })
 export class TaskService {
 
-  private tasks : Task[] = [ {id:0, title: 'Ma prems task', content: "To do"},
-  {id:1, title:'celle la il faut la faire!', content: "To do"}];
+  private tasks : Task[] = [ {id:0, title: 'Ma premiere task', content: "To do"},
+  {id:1, title:'Cette task doit etre faite!', content: "To do"}];
 
 
   constructor() { }
